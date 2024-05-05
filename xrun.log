@@ -1,0 +1,122 @@
+xrun: 23.09-s001: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun	23.09-s001: Started on May 05, 2024 at 12:15:02 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+      alu_transaction_ins.randomize();
+                                  |
+xmvlog: *W,FUNTSK (alu_generator.sv,35|34): function called as a task without void'().
+	Top level design units:
+		$unit_0x67f934e9
+		tb_alu
+Loading snapshot worklib.tb_alu:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium23.09/tools/xcelium/files/xmsimrc
+xcelium> run
+The expected result   0, is equivalent actual result    0.
+The expected result   1, is equivalent actual result    1.
+The expected result   0, is equivalent actual result    0.
+The expected result   8, is equivalent actual result    8.
+The expected result   0, is equivalent actual result    0.
+The expected result  20, is equivalent actual result   20.
+The expected result   0, is equivalent actual result    0.
+The expected result 249, is equivalent actual result  249.
+The expected result   0, is equivalent actual result    0.
+The expected result   5, is equivalent actual result    5.
+The expected result 244, is equivalent actual result  244.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result 254, is equivalent actual result  254.
+The expected result   0, is equivalent actual result    0.
+The expected result   3, is equivalent actual result    3.
+The expected result   0, is equivalent actual result    0.
+The expected result 254, is equivalent actual result  254.
+The expected result 253, is equivalent actual result  253.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result 252, is equivalent actual result  252.
+The expected result   0, is equivalent actual result    0.
+The expected result   4, is equivalent actual result    4.
+The expected result  19, is equivalent actual result   19.
+The expected result  11, is equivalent actual result   11.
+The expected result   7, is equivalent actual result    7.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result  14, is equivalent actual result   14.
+The expected result  26, is equivalent actual result   26.
+The expected result   0, is equivalent actual result    0.
+The expected result  12, is equivalent actual result   12.
+The expected result   0, is equivalent actual result    0.
+The expected result  40, is equivalent actual result   40.
+The expected result  17, is equivalent actual result   17.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result  27, is equivalent actual result   27.
+The expected result 248, is equivalent actual result  248.
+The expected result   7, is equivalent actual result    7.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result  13, is equivalent actual result   13.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result  10, is equivalent actual result   10.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result  11, is equivalent actual result   11.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   5, is equivalent actual result    5.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   3, is equivalent actual result    3.
+The expected result   0, is equivalent actual result    0.
+The expected result 255, is equivalent actual result  255.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result  15, is equivalent actual result   15.
+The expected result   0, is equivalent actual result    0.
+The expected result  16, is equivalent actual result   16.
+The expected result   0, is equivalent actual result    0.
+The expected result   6, is equivalent actual result    6.
+The expected result   0, is equivalent actual result    0.
+The expected result   9, is equivalent actual result    9.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result  13, is equivalent actual result   13.
+The expected result   0, is equivalent actual result    0.
+The expected result  84, is equivalent actual result   84.
+The expected result  28, is equivalent actual result   28.
+The expected result  40, is equivalent actual result   40.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result   0, is equivalent actual result    0.
+The expected result 248, is equivalent actual result  248.
+The expected result  21, is equivalent actual result   21.
+The expected result   0, is equivalent actual result    0.
+Simulation complete via $finish(1) at time 1 US + 0
+./testbench.sv:34   initial begin #1000; $finish; end
+xcelium> exit
+TOOL:	xrun	23.09-s001: Exiting on May 05, 2024 at 12:15:03 EDT  (total: 00:00:01)
